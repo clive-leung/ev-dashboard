@@ -1,0 +1,220 @@
+{
+  "tesla": [
+    {
+      "period": "2012 Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312512314408/d380890dex991.htm"
+    },
+    {
+      "period": "2012 Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312512450383/d432726dex991.htm"
+    },
+    {
+      "period": "2012 Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513067177/d462441dex991.htm"
+    },
+    {
+      "period": "2013 Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513207910/d532640dex991.htm"
+    },
+    {
+      "period": "2013 Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513324129/d578387dex991.htm"
+    },
+    {
+      "period": "2013 Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513427630/d622890dex991.htm"
+    },
+    {
+      "period": "2013 Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312514058778/d676319dex991.htm"
+    },
+    {
+      "period": "2014 Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312514187459/d722173dex991.htm"
+    },
+    {
+      "period": "2014 Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312514289598/d764668dex991.htm"
+    },
+    {
+      "period": "2014 Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312514398650/d815233dex991.htm"
+    },
+    {
+      "period": "2014 Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312515044423/d853966dex991.htm"
+    },
+    {
+      "period": "2015 Q1",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Tesla_Motors_Q1_15_Shareholder_Letter"
+    },
+    {
+      "period": "2015 Q2",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Tesla_Q2_2015_Shareholder_Letter"
+    },
+    {
+      "period": "2015 Q3",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Q3_15_Shareholder_Letter"
+    },
+    {
+      "period": "2015 Q4",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Q4_15_Tesla_Update_Letter"
+    },
+    {
+      "period": "2016 Q1",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Q1_2016_Tesla_Shareholder_Letter"
+    },
+    {
+      "period": "2016 Q2",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Q2_16_Update_Letter_-_final"
+    },
+    {
+      "period": "2016 Q3",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Q3_16_Update_Letter_-_final"
+    }
+  ],
+  "lucid": [
+    {
+      "period": "2021 Q4",
+      "url": "https://ir.lucidmotors.com/static-files/8adcacec-1490-4513-9f73-0bf8f5cc1096"
+    },
+    {
+      "period": "2022 Q1",
+      "url": "https://ir.lucidmotors.com/static-files/8123ef5d-1f0c-4c67-820d-b44eacd44c55"
+    },
+    {
+      "period": "2022 Q2",
+      "url": "https://ir.lucidmotors.com/static-files/b95d6d2b-5745-4f84-a036-0a82959a1db3"
+    },
+    {
+      "period": "2022 Q3",
+      "url": "https://ir.lucidmotors.com/static-files/8cd6b0da-a87f-4148-82bf-c16d039cec51"
+    },
+    {
+      "period": "2022 Q4",
+      "url": "https://ir.lucidmotors.com/static-files/0aec52e4-b841-4ef8-ab30-08e84ba15048"
+    },
+    {
+      "period": "2023 Q1",
+      "url": "https://ir.lucidmotors.com/static-files/f9bbeb85-c12f-4d10-a546-c9a7aaccef3c"
+    },
+    {
+      "period": "2023 Q2",
+      "url": "https://ir.lucidmotors.com/node/8771/pdf"
+    },
+    {
+      "period": "2023 Q3",
+      "url": "https://ir.lucidmotors.com/node/8921/pdf"
+    },
+    {
+      "period": "2023 Q4",
+      "url": "https://ir.lucidmotors.com/node/9116/pdf"
+    },
+    {
+      "period": "2024 Q1",
+      "url": "https://ir.lucidmotors.com/static-files/d5375cb4-a85a-4637-91ed-601cb68f78c7"
+    },
+    {
+      "period": "2024 Q2",
+      "url": "https://ir.lucidmotors.com/node/9461/pdf"
+    },
+    {
+      "period": "2024 Q3",
+      "url": "https://ir.lucidmotors.com/node/9691/pdf"
+    },
+    {
+      "period": "2024 Q4",
+      "url": "https://ir.lucidmotors.com/static-files/6b9e283c-7211-4a18-a389-e55c5b3a332f"
+    },
+    {
+      "period": "2025 Q1",
+      "url": "https://ir.lucidmotors.com/static-files/90032b0d-7bef-4fbb-b478-25b35ac6baa1"
+    },
+    {
+      "period": "2025 Q2",
+      "url": "https://ir.lucidmotors.com/static-files/95eeb10f-3f88-4901-b273-e811e0d47297"
+    },
+    {
+      "period": "2025 Q3",
+      "url": "https://ir.lucidmotors.com/static-files/cce9e7dd-7650-4647-9cab-8033676179de"
+    },
+    {
+      "period": "2025 Q4",
+      "url": "https://ir.lucidmotors.com/static-files/c4402bb5-7ba7-4705-9340-41ad76a949e5"
+    }
+  ],
+  "rivian": [
+    {
+      "period": "2021 Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000119312521359139/d236890dex992.htm"
+    },
+    {
+      "period": "2021 Q4",
+      "url": "https://assets.rivian.com/2md5qhoeajym/7MVaHLcGevcUKE0QZZjzEZ/e3ac410e5f9676c894389c6bc844f1e7/Rivian-Q4-2021-Shareholder-Letter.pdf"
+    },
+    {
+      "period": "2022 Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417822000027/rivian-q1x2022xsharehold.htm"
+    },
+    {
+      "period": "2022 Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417822000045/rivian_q2-2022xsharehold.htm"
+    },
+    {
+      "period": "2022 Q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417822000057/rivian_q3-2022xsharehold.htm"
+    },
+    {
+      "period": "2022 Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417823000006/rivian_q4-2022xsharehold.htm"
+    },
+    {
+      "period": "2023 Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417823000027/ex-9921q23shareholderletter.htm"
+    },
+    {
+      "period": "2023 Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417823000040/ex-9922q23shareholderletter.htm"
+    },
+    {
+      "period": "2023 Q3",
+      "url": "https://downloads.rivian.com/2md5qhoeajym/7GkeR1EvqEDRDWd6wHXcsX/b26027790dc64a3dc86cd499b97c8b07/EX_-_99.2_3Q23_Shareholder_Letter_Final_11.7.23_NASDAQ.pdf"
+    },
+    {
+      "period": "2023 Q4",
+      "url": "https://assets.rivian.com/2md5qhoeajym/2Q0NcEACrvGFosLhpyR15H/bfe2aa72cb657c4cebb9f4a85e913f07/EX_-_99.2_4Q23_Shareholder_Letter_Final_Compressed.pdf"
+    },
+    {
+      "period": "2024 Q1",
+      "url": "https://downloads.rivian.com/2md5qhoeajym/7zCEJ4kjX4TnecjryDLg0J/e43344caf7ab00ee1b4335921cd9c8c7/RIVN_1Q24_Shareholder_Letter.pdf"
+    },
+    {
+      "period": "2024 Q2",
+      "url": "https://downloads.rivian.com/2md5qhoeajym/1TJ6otGQ8dmSyIi0shstum/3f443d04053237a398665ae3dd4a79dd/EX_-_99.2_2Q24_Shareholder_Letter_Final.pdf"
+    },
+    {
+      "period": "2024 Q3",
+      "url": "https://downloads.ctfassets.net/2md5qhoeajym/1yNQegC3WuA9puoiCd69Sl/0f05e92ccdc84303608170f1aa46765d/EX_-_99.2_3Q24_Shareholder_Letter.pdf"
+    },
+    {
+      "period": "2024 Q4",
+      "url": "https://downloads.ctfassets.net/2md5qhoeajym/4bRHWWpn57tfMt9KEdEuhT/f9e991ab2f9a3fbe7dcfa33b63ae4917/EX_-_99.2_4Q24_Shareholder_Letter.pdf"
+    },
+    {
+      "period": "2025 Q1",
+      "url": "https://downloads.ctfassets.net/2md5qhoeajym/CgJi4zWSk36Q5qX4pYfVH/26a5b919c4b5c8563312c87d8e6bb21e/EX_-_99.2_1Q25_Shareholder_Letter.pdf"
+    },
+    {
+      "period": "2025 Q2",
+      "url": "https://downloads.ctfassets.net/2md5qhoeajym/5ioteNYxgapdkeBkhA0tiq/015b9afbc322df0549c48a46a1c6b361/EX_-_99.2_2Q25_Shareholder_Letter.pdf"
+    },
+    {
+      "period": "2025 Q3",
+      "url": "https://downloads.ctfassets.net/2md5qhoeajym/36nGbthdeQ234qcaMZ1dRq/49b7d49a0244f995c9600ea2bdfcf3d8/EX_-_99.2_3Q25_Shareholder_Letter_Final.pdf"
+    },
+    {
+      "period": "2025 Q4",
+      "url": "https://downloads.ctfassets.net/2md5qhoeajym/6CvaebM11eIcny5hYQ4WUv/6036559046fc7f37552792ad60a0dc5e/EX_-_99.2_4Q25_Shareholder_Letter_web_quality.pdf"
+    }
+  ]
+}
