@@ -1,0 +1,38 @@
+name: Update EV Dashboard
+
+on:
+  push:
+    paths:
+      - 'earnings-links.json'
+      - '.github/workflows/update-dashboard.yml'
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: npm install
+        # (optional - only needed if you use npm packages)
+      
+      - name: Update dashboard data
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: node scripts/update-dashboard.js
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add src/data/*.json src/dashboards/*.jsx
+          git commit -m "Auto: Update dashboard from latest earnings" || true
+          git push
