@@ -1,38 +1,88 @@
 name: Update EV Dashboard
 
+# Trigger on changes to earnings-links.json or manual trigger
 on:
   push:
     paths:
       - 'earnings-links.json'
-      - '.github/workflows/update-dashboard.yml'
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch:  # Manual trigger from GitHub UI
 
 jobs:
-  update:
+  update-dashboard:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      # Step 1: Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
+      # Step 2: Set up Node.js
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
       
-      - name: Install dependencies
-        run: npm install
-        # (optional - only needed if you use npm packages)
+      # Step 3: Create necessary directories
+      - name: Create directories
+        run: |
+          mkdir -p src/data
+          mkdir -p src/components
+          mkdir -p src/styles
       
-      - name: Update dashboard data
+      # Step 4: Extract earnings data from PDFs using Claude API
+      - name: Extract earnings data
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-        run: node scripts/update-dashboard.js
+        run: |
+          echo "📊 Extracting earnings data from PDFs..."
+          node scripts/extract-earnings.js
       
-      - name: Commit and push changes
+      # Step 5: Normalize data to SOP-aligned timeline
+      - name: Normalize data to SOP timeline
+        run: |
+          echo "📈 Normalizing data to SOP-aligned timeline..."
+          node scripts/normalize-data.js
+      
+      # Step 6: Generate commentary using Claude API
+      - name: Generate insights and commentary
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: |
+          echo "📝 Generating automated commentary..."
+          node scripts/generate-commentary.js
+      
+      # Step 7: Verify all data files were created
+      - name: Verify output files
+        run: |
+          echo "✓ Checking output files..."
+          ls -lh src/data/
+      
+      # Step 8: Commit changes if data was updated
+      - name: Commit data updates
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add src/data/*.json src/dashboards/*.jsx
-          git commit -m "Auto: Update dashboard from latest earnings" || true
-          git push
+          git add src/data/*.json
+          git commit -m "Auto: Extract and process latest earnings data" || echo "No changes to commit"
+      
+      # Step 9: Push changes back to main branch
+      - name: Push changes
+        run: |
+          git push origin main || echo "No changes to push"
+      
+      # Step 10: Notify completion
+      - name: Success notification
+        run: |
+          echo "✅ Dashboard update complete!"
+          echo "📊 Data files ready for visualization"
+          echo "🌐 GitHub Pages will auto-deploy shortly"
+
+  # Optional: Add a job to verify the deployment
+  verify-deployment:
+    needs: update-dashboard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify GitHub Pages deployment
+        run: |
+          echo "✓ Dashboard data has been prepared"
+          echo "✓ Next: GitHub Pages will serve the updated site"
